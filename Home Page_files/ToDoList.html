@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" initial-scale="1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="ToDoList.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <p id = "logo">TO DO LIST</p>
+            <ul>
+                <li><input id="sbar" input="text"></li>
+                <li><button id="sbutt">search</button></li>
+            </ul>
+            
+        </header>
+    </div>
+    <div class="contenar2 center">
+        <h1>Enter things you want to remebar</h1>
+        <span>Enter your things to Do</span>
+
+        <input id = "addli" class="inp1" type="text">
+        <br><br>
+        <span>Enter the description of your things</span>
+        <textarea id="dis" class="inp2"></textarea>
+        <br>
+        <button id="addText" class="but1">Add new list</button>
+        <button class="but1" onclick="clearLS()">Delete all Lists</button>
+    </div>
+    <br><br>
+    <div id="canternor" class="grid">
+        <!-- <div class="card">
+            <h1>list ${i + 1}</h1>
+            <h3>${notesObj[i]}</h3>
+            <p>${discArr[i]} Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat velit obcaecati illo quas reiciendis provident ipsum repudiandae ipsam voluptatum iusto, natus quae praesentium repellat numquam modi suscipit consequatur sunt at.</p>
+            <button id = "${i}" class="but2" onclick="deleteMe(this.id)">Delete</button>
+        </div> -->
+    </div>
+    <script src="ToDoListJS.js"></script>
+</body>
+
+</html>

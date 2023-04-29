@@ -1,0 +1,169 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Test</title>
+    <style>
+        body {
+            height: 150vh;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        button {
+            padding: 19px 34px;
+            background-color: rgb(41, 112, 173);
+            color: rgb(255, 255, 255);
+            border-radius: 12px;
+            font-size: 23px;
+        }
+
+        button:hover {
+            background-color: rgb(90, 90, 90);
+            color: rgb(255, 255, 255);
+        }
+
+        p {
+            background-color: grey;
+            font-size: 33px;
+            padding: 12px;
+            color: aliceblue;
+        }
+
+        #img1 {
+            display: none;
+        }
+
+        #magick {
+            display: none;
+        }
+
+        .magick {
+            display: inline;
+            margin: 0 -4px;
+            border: 3px solid black;
+            width: 30vw;
+        }
+
+        .magick:hover, .magick:focus {
+            cursor: pointer;
+            width: 40vw;
+        }
+
+        #demon img {
+            width: 50vw;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .butt button {
+            cursor: pointer;
+            padding: 25px;
+            border-radius: 40px;
+            font-size: 30px;
+            display: inline;
+            position: absolute;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .next {
+            right: 0px;
+        }
+
+        #demon {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- hello World  -->
+    <h2 class="center">Hello World Butten</h2>
+    <button id="but1">Hello world</button>
+
+    <!-- Enter Name -->
+    <h2 class="center">Name Butten</h2>
+    <div id="i_but2">
+        <button id="but2">Enter Name</button>
+    </div>
+
+    <!-- Saw Thw Time -->
+    <h2 class="center">Click the Button to see Time</h2>
+    <div id="i_but3">
+        <button id="but3">Click me</button>
+    </div>
+
+    <!-- Button to do sow image -->
+    <h2 class="center">Click to see Images</h2>
+    <div id="i_but4">
+        <button id="but4">Images</button>
+    </div>
+    <img id="img1" src="Button img (2).jpg" alt="" srcset="">
+
+    <!-- Migecal Images -->
+    <h2 class="center">Click to see Migick</h2>
+    <div>
+        <button id="but5">See Migick</button>
+    </div>
+    <div id="magick" class="c_magick">
+        <img class="magick" src="Button img (3).jpg" alt="" srcset="">
+        <img class="magick" src="Button img (4).jpg" alt="" srcset="">
+    </div>
+
+    <!-- Images salaider -->
+    <h2 class="center">Images salaider</h2>
+    <div>
+        <button id="but6">salaider</button>
+    </div>
+    <div id="demon">
+        <div class="salaiders">
+            <img src="Button img (1).png" alt="" srcset="">
+        </div>
+        <div class="salaiders">
+            <img src="Button img (1).jpeg" alt="" srcset="">
+        </div>
+        <div class="salaiders">
+            <img src="Button img (1).avif" alt="" srcset="">
+        </div>
+        <div class="salaiders">
+            <img src="Button img (2).webp" alt="" srcset="">
+        </div>
+        <div class="salaiders">
+            <img src="Button img (1).jpg" alt="" srcset="">
+        </div>
+        <div class="salaiders">
+            <img src="Button img (1).webp" alt="" srcset="">
+        </div>
+        <div class="butt">
+            <button class="prev" onclick="plusSlides(-1)">
+                <---</button>
+                    <button class="next" onclick="plusSlides(1)">---></button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- Java Script -->
+    <script src="Button script (1).js"></script>
+    <script src="Button script (2).js"></script>
+    <script src="Button script (3).js"></script>
+    <script src="Button script (4).js"></script>
+    <script src="Button script (5).js"></script>
+    <script src="Button script (6).js"></script>
+    
+
+</body>
+
+</html>

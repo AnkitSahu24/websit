@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="SPS.css">
+    <title>SPS</title>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Stone Paper Sijars</h1>
+    </div>
+    <div id="opt" class="opt">
+        <p>Seclet an option Bitween<br>Rock---Paper---Siser</p>
+    </div>
+    <div class="box">
+        <div class="me"><img src="SPS (2).png">
+            <p id="m">0</p>
+        </div>
+        <div class="ms">
+
+            <p id="pl" class="msg">One point to Player</p>
+            <p id="bo" class="msg">One point to Bot</p>
+                <p id="do" class="msg">Both seclete the same option</p>
+        </div>
+        <div class="bot"><img src="SPS (1).png">
+            <p id="b">0</p>
+        </div>
+    </div>
+    <div class="sps">
+        <button id="stone" class="secl" value="-1" onclick="sps(this.value)"><img src="SPS (2).jpg">
+            <p>Rock</p>
+        </button>
+        <button id="paper" class="secl" value="0" onclick="sps(this.value)"><img src="SPS (1).jpg">
+            <p>Paper</p>
+        </button>
+        <button id="siser" class="secl" value="1" onclick="sps(this.value)"><img src="SPS (1).webp">
+            <p>Siser</p>
+        </button>
+    </div>
+    <script src="SPS.js"></script>
+</body>
+
+</html>
